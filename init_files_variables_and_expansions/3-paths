@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo $PATH wc -l
+echo $(wc -l <<< "$(find . -mindepth 1 -type d)")
