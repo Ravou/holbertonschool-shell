@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( $(tr -cd ':' <<< "$PATH") + 1 ))
+wc -l
